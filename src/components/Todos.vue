@@ -69,6 +69,7 @@ export default {
         id: this.id,
         title: this.inputTodo,
         completed: false,
+        editing: false
       });
       this.inputTodo = "";
       this.id++;
